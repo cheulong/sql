@@ -1,0 +1,44 @@
+SQL Arithmetic Operators
+
++	Addition	10 + 20 = 30
+-	Subtraction	20 - 30 = -10
+*	Multiplication	10 * 20 = 200
+/	Division	20 / 10 = 2
+%	Modulus	5 % 2 = 1
+
+SQL Comparison Operators
+
+=	Equal to	5 = 5 returns TRUE
+!=	Not equal	5 != 6 returns TRUE
+<>	Not equal	5 <> 4 returns TRUE
+>	Greater than	4 > 5 returns FALSE
+<	Less than	4 < 5 returns TRUE
+>=	Greater than or equal to	4 >= 5 returns FALSE
+<=	Less than or equal to	4 <= 5 returns TRUE
+!<	Not less than	4 !< 5 returns FALSE
+!>	Not greater than	4 !> 5 returns TRUE
+
+SQL Logical Operators
+
+ALL	TRUE if all of a set of comparisons are TRUE.	
+AND	TRUE if all the conditions separated by AND are TRUE.	
+ANY	TRUE if any one of a set of comparisons are TRUE.	
+BETWEEN	TRUE if the operand lies within the range of comparisons.	
+EXISTS	TRUE if the subquery returns one or more records	
+IN	TRUE if the operand is equal to one of a list of expressions.	
+LIKE	TRUE if the operand matches a pattern specially with wildcard.	
+NOT	Reverses the value of any other Boolean operator.	
+OR	TRUE if any of the conditions separated by OR is TRUE	
+IS NULL	TRUE if the expression value is NULL.	
+SOME	TRUE if some of a set of comparisons are TRUE.	
+UNIQUE	The UNIQUE operator searches every row of a specified table for uniqueness (no duplicates).
+
+SQL Operator Precedence
+
++, -	identity, negation
+*, /	multiplication, division
++, -	addition, subtraction
+=, !=, <, >, <=, >=, IS NULL, LIKE, BETWEEN, IN	Comparison
+NOT	logical negation
+AND	conjunction
+OR	inclusion

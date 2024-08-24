@@ -1,0 +1,38 @@
+--- String Datatype
+-- Data type	    Description
+-- CHAR(size)	    A fixed length string which can have letters, numbers, and special characters. The size parameter specifies the column length in characters which can vary from from 0 to 255. Default size is 1
+-- VARCHAR(size)	A variable length string which can contain letters, numbers, and special characters. The size parameter specifies the maximum string length in characters which can vary from 0 to 65535.
+-- BINARY(size)	    This is equal to CHAR(), but stores binary byte strings. The size parameter specifies the column length in bytes. Default size is 1
+-- VARBINARY(size)	This is equal to VARCHAR(), but stores binary byte strings. The size parameter specifies the maximum column length in bytes.
+-- TINYTEXT	        This holds a string with a maximum length of 255 characters
+-- TEXT(size)	    This holds a string with a maximum length of 65,535 bytes
+-- LONGTEXT	        This holds a string with a maximum length of 4,294,967,295 characters
+-- TINYBLOB	        This represents a small BLOBs (Binary Large Objects). Max length is 255 bytes
+-- BLOB(size)	    This represents a BLOBs (Binary Large Objects). Holds up to 65,535 bytes of data
+-- MEDIUMTEXT	    This holds a string with a maximum length of 16,777,215 characters
+-- MEDIUMBLOB	    This represents a medium BLOBs (Binary Large Objects). Holds up to 16,777,215 bytes of data
+-- LONGBLOB	        This represents a large BLOBs (Binary Large Objects). Holds up to 4,294,967,295 bytes of data
+-- ENUM(val1, val2, val3, ...)	A string object that can contain only one value, chosen from a list of possible values. You can list up to 65535 values in an ENUM list. If a value is inserted that is not in the list, a blank value will be inserted. The values are sorted in the order you enter them
+-- SET(val1, val2, val3, ...)	A string object that can have 0 or more values, chosen from a list of possible values. You can list up to 64 values in a SET list
+
+--- Numeric Datatype
+-- Data type	    Description
+-- TINYINT(size)	    This is a 1 byte integer which can hold values from -128 to 127
+-- SMALLINT(size)	This is a 2 byte integer which can hold values from -32768 to 32767
+-- MEDIUMINT(size)	This is a 3 byte integer which can hold values from -8388608 to 8388607
+-- INT(size)	    This is a 4 byte integer which can hold values from -2147483648 to 2147483647
+-- BIGINT(size)	This is an 8 byte integer which can hold values from -9223372036854775808 to 9223372036854775807
+-- FLOAT(size,d)	This is a 4 byte floating point number which can hold values from -3.402823466E+38 to 3.402823466E+38
+-- DOUBLE(size,d)	This is an 8 byte floating point number which can hold values from -1.7976931348623157E+308 to 1.7976931348623157E+308
+-- DECIMAL(size,d)	This is a fixed precision number which can hold values from -999999999999999999 to 999999999999999999
+-- NUMERIC(size,d)	This is a fixed precision number which can hold values from -999999999999999999 to 999999999999999999
+-- BIT(size)	    This is a bit field which can hold values from 0 to 7
+
+--- Date and Time Datatype
+-- Data type	    Description
+-- DATE	        This is a date which can hold values from '1000-01-01' to '9999-12-31'
+-- TIME	        This is a time which can hold values from '-838:59:59' to '838:59:59'
+-- TIMESTAMP	    This is a timestamp which can hold values from '1970-01-01 00:00:01' to '2038-01-19 03:14:07'
+-- DATETIME	    This is a combination of date and time which can hold values from '1000-01-01 00:00:00' to '9999-12-31 23:59:59'
+-- YEAR	        This is a year which can hold values from 1 to 2
+
